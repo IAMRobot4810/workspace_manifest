@@ -16,12 +16,12 @@ To create them run:
     mkdir bin
 
 
-Install the Repository
+Install The "repo" Command
 ----------------------
 
 Enter the following to download the "repo" binary and make it executable:
 
-curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > bin\repo && chmod a+x bin\repo
+    curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > bin\repo && chmod a+x bin\repo
 
 You may need to reboot for these changes to take effect. 
 Now enter the following to initialize the repository:
@@ -29,12 +29,12 @@ Now enter the following to initialize the repository:
     cd C:\WindRiver\workspace
 
 
-Repositories:
+Initialize and Sync The Repositories:
 ---------------
 
-Before you continue --> run this in the terminal
-----------------------------------------
+Run the following command to get the source code:
+
     repo init -u https://github.com/IAMSeals4810/workspace_manifest.git && repo sync -f -j8
 
 
-The base source has been downloaded.
+
