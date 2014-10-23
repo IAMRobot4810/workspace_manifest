@@ -11,7 +11,7 @@ Create the Directories
 
 You will need to set up a directory in your build environment.
 
-To create them run:
+To create them, open Cygwin and run:
 
     mkdir bin
 
@@ -19,7 +19,7 @@ To create them run:
 Install The "repo" Command
 ----------------------
 
-Enter the following to download the "repo" binary and make it executable:
+Run the following to download the "repo" binary and make it executable:
 
     curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > bin\repo && chmod a+x bin\repo
 
