@@ -1,4 +1,40 @@
-GAOSP manifest
-==============
-AOSP optomized with standard Graphene ROM tweaks comming soon (after Lollipop release)
-Currently an example manifest.
+IAMRobot FRC team 4810
+=======================
+Our OpenSource code manifest, for both our team and anyone who wants to pitch in.
+
+Install Cygwin
+-------------------
+Just Google it and make sure you install everything.
+
+Create the Directories
+----------------------
+
+You will need to set up a directory in your build environment.
+
+To create them run:
+
+    mkdir bin
+
+
+Install the Repository
+----------------------
+
+Enter the following to download the "repo" binary and make it executable:
+
+curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > bin\repo && chmod a+x bin\repo
+
+You may need to reboot for these changes to take effect. 
+Now enter the following to initialize the repository:
+
+    cd C:/WindRiver/workspace
+
+
+Repositories:
+---------------
+
+Before you continue --> run this in the terminal
+----------------------------------------
+    repo init -u https://github.com/IAMSeals4810/workspace_manifest.git && repo sync -f -j8
+
+
+The base source has been downloaded.
