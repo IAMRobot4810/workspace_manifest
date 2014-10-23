@@ -26,7 +26,7 @@ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > bin\repo 
 You may need to reboot for these changes to take effect. 
 Now enter the following to initialize the repository:
 
-    cd C:/WindRiver/workspace
+    cd C:\WindRiver\workspace
 
 
 Repositories:
