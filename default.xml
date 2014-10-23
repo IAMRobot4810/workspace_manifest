@@ -8,8 +8,8 @@
            sync-f="true" />
  
     <project path=".metadata" name="metadata" />
-    <project path="RobotTestCode/" name="code" />
-    <project path="RobotTestCode/PPC603gnu/" name="PPC603gnu" />
-    <project path="RobotTestCode/PPC603gnu/IterativeTemplate/Debug/" name="debug" />
-    <project path="RobotTestCode/PPC603gnu/IterativeTemplate_partialImage/" name="iterative_template" />
+    <project path="RobotTestCode\" name="code" />
+    <project path="RobotTestCode\PPC603gnu\" name="PPC603gnu" />
+    <project path="RobotTestCode\PPC603gnu\IterativeTemplate\Debug\" name="debug" />
+    <project path="RobotTestCode\PPC603gnu\IterativeTemplate_partialImage\" name="iterative_template" />
 </manifest>
