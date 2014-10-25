@@ -14,6 +14,9 @@ You will need to set up a directory in your build environment.
 To create them, open Cygwin and run:
 
     mkdir bin
+    
+Now you need to add the folder to your path, that way commands in bin will work. To do that, run:
+
     PATH=~/bin:$PATH
 
 
