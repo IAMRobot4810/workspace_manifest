@@ -21,7 +21,7 @@ Install The "repo" Command
 
 Run the following to download the "repo" binary and make it executable:
 
-    curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > bin\repo && chmod a+x bin\repo
+    curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > bin/repo && chmod a+x bin/repo
 
 You may need to reboot for these changes to take effect. 
 Now enter the following to initialize the repository:
