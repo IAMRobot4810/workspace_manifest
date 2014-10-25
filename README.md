@@ -26,7 +26,7 @@ Run the following to download the "repo" binary and make it executable:
 You may need to reboot for these changes to take effect. 
 Now enter the following to initialize the repository:
 
-    cd C:\WindRiver\workspace
+    cd C:/WindRiver/workspace
 
 
 Initialize and Sync The Repositories:
