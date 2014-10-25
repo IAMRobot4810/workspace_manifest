@@ -14,6 +14,7 @@ You will need to set up a directory in your build environment.
 To create them, open Cygwin and run:
 
     mkdir bin
+    PATH=~/bin:$PATH
 
 
 Install The "repo" Command
