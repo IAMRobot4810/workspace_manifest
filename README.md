@@ -17,7 +17,7 @@ To create them, open Cygwin and run:
     
 Now you need to add the folder to your path, that way commands in bin will work. To do that, run:
 
-   echo "export PATH=bin:$PATH" >> .bashrc && export PATH=bin:$PATH
+    echo "export PATH=bin:$PATH" >> .bashrc && export PATH=bin:$PATH
 
 
 Install The "repo" Command
