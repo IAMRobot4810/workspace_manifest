@@ -17,7 +17,7 @@ To create them, open Cygwin and run:
     
 Now you need to add the folder to your path, that way commands in bin will work. To do that, run:
 
-    PATH=~/bin:$PATH
+   echo "export PATH=bin:$PATH" >> .bashrc && export PATH=bin:$PATH
 
 
 Install The "repo" Command
@@ -38,7 +38,7 @@ Initialize and Sync The Repositories:
 
 Run the following command to get the source code:
 
-    repo init -u https://github.com/IAMSeals4810/workspace_manifest.git && repo sync -f -j8
+    repo init -u https://github.com/IAMSeals4810/workspace_manifest.git && repo sync -j8
 
 
 
